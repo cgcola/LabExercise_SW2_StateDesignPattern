@@ -41,4 +41,4 @@
 <p>Logic:</p>
 
 <p>If the account is active:</p>
-<ul>You can either suspend it or close it.</ul>
+<ul><li>You can either suspend it or close it.</li>Y</ul>
