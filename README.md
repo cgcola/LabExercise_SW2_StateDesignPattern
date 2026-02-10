@@ -37,11 +37,11 @@
     </ul>
   </li>
 </ol>
-
+<hr>
 <p>Logic:</p>
 
 <p>If the account is active:</p>
-<ul><li>You can either suspend it or close it.</li>Y</ul>
+<ul><li>You can either suspend it or close it.</li></ul>
 
 <p>If the account is suspended:</p>
 <ul>
@@ -73,7 +73,7 @@
 </ul>
 
 <p><strong>Note:</strong> No if-else, switch will be used</p>
-
+<hr>
 <p>Create AccountTest() class to test the Account:</p>
 
 ```java
