@@ -38,7 +38,7 @@
   </li>
 </ol>
 <hr>
-<p><strong>Logic:</strong></p>
+<h3>Logic:</h3>
 
 <p><strong>If the account is active:</strong></p>
 <ul><li>You can either suspend it or close it.</li></ul>
