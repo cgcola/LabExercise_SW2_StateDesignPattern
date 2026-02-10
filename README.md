@@ -42,3 +42,89 @@
 
 <p>If the account is active:</p>
 <ul><li>You can either suspend it or close it.</li>Y</ul>
+
+<p>If the account is suspended:</p>
+<ul>
+  <li>You can either activate or close it./li>
+  <li>No deposits and withdrawals allowed.</li>
+</ul>
+
+<p>If the account is closed:</p>
+<ul>
+  <li>You can neither suspend nor activate it.</li>
+  <li>No deposits and withdrawals allowed.</li>
+</ul>
+
+<p>Composition of Account:</p>
+<ul>
+  <li>accountNumber : String</li>
+  <li>balance:  Double</li>
+  <li>accountState:  AccountState</li>
+</ul>
+
+<p>Methods:</p>
+<ul>
+  <li>deposit(Double depositAmount): void</li>
+  <li>withdraw(Double withdrawAmount): voidDouble</li>
+  <li>suspend(): void</li>
+  <li>activate(): void</li>
+  <li>close() : void</li>
+  <li>toString()   // displays account number and balance</li>
+</ul>
+
+<p><strong>Note:</strong> No if-else, switch will be used</p>
+
+<p>Create AccountTest() class to test the Account:</p>
+
+```java
+public class AccountTest {
+
+    public static void main(String[] args) {
+
+        // Create account (active state)
+        Account myAccount = new Account("1234", 10000.0);
+
+        // Activate the account
+        myAccount.activate(); 
+        // Displays: "Account is already activated!"
+
+        // Suspend the account
+        myAccount.suspend(); 
+        // Displays: "Account is suspended!"
+
+        // Activate the account again
+        myAccount.activate(); 
+        // Displays: "Account is activated!"
+
+        // Deposit to the account
+        myAccount.deposit(1000.0);
+        // Updates balance and displays account number + current balance
+
+        // Withdraw from the account
+        myAccount.withdraw(100.0);
+        // Updates balance and displays account number + current balance
+
+        // Close the account
+        myAccount.close(); 
+        // Displays: "Account is closed!"
+
+        // Try to activate a closed account
+        myAccount.activate(); 
+        // Displays: "You cannot activate a closed account!"
+
+        // Try to suspend a closed account
+        myAccount.suspend(); 
+        // Displays: "You cannot suspend a closed account!"
+
+        // Try to withdraw from a closed account
+        myAccount.withdraw(500.0);
+        // Displays: "You cannot withdraw on a closed account!"
+        // Calls toString() to show current balance + account number
+
+        // Try to deposit into a closed account
+        myAccount.deposit(1000.0);
+        // Displays: "You cannot deposit on a closed account!"
+        // Calls toString() to show current balance + account number
+    }
+}
+```
