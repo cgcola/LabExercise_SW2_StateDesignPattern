@@ -13,11 +13,6 @@
 <p>Implement the State pattern to improve code maintainability and flexibility:</p>
 
 <ol>
-  <li><strong>Define Account States:</strong> Create separate classes representing different account states: <code>ActiveState</code>, <code>SuspendedState</code>, and <code>ClosedState</code>.</li>
-  <li><strong>Implement State Interface: </li>
-</ol>
-
-<ol>
   <li><strong>Define Account States:</strong> Create separate classes representing different account states: 
     <code>ActiveState</code>, <code>SuspendedState</code>, and <code>ClosedState</code>.</li>
 
