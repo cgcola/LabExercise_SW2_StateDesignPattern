@@ -38,31 +38,31 @@
   </li>
 </ol>
 <hr>
-<p>Logic:</p>
+<p><strong>Logic:</strong></p>
 
-<p>If the account is active:</p>
+<p><strong>If the account is active:</strong></p>
 <ul><li>You can either suspend it or close it.</li></ul>
 
-<p>If the account is suspended:</p>
+<p><strong>If the account is suspended:</strong></p>
 <ul>
   <li>You can either activate or close it./li>
   <li>No deposits and withdrawals allowed.</li>
 </ul>
 
-<p>If the account is closed:</p>
+<p><strong>If the account is closed:</strong></p>
 <ul>
   <li>You can neither suspend nor activate it.</li>
   <li>No deposits and withdrawals allowed.</li>
 </ul>
 
-<p>Composition of Account:</p>
+<p><strong>Composition of Account:</strong></p>
 <ul>
   <li>accountNumber : String</li>
   <li>balance:  Double</li>
   <li>accountState:  AccountState</li>
 </ul>
 
-<p>Methods:</p>
+<p><strong>Methods:</strong></p>
 <ul>
   <li>deposit(Double depositAmount): void</li>
   <li>withdraw(Double withdrawAmount): voidDouble</li>
