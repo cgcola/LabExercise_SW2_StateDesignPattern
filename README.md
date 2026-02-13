@@ -128,3 +128,8 @@ public class AccountTest {
     }
 }
 ```
+
+<hr>
+
+### UML Diagram:
+<img width="5796" height="2115" alt="image" src="https://github.com/user-attachments/assets/48c8b918-35df-4213-8a3e-864748ef26a2" />
